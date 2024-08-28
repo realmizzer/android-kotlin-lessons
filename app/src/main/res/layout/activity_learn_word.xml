@@ -58,16 +58,14 @@
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
                 android:text="1"
-                android:textColor="#888992"
-                android:fontFamily="@font/rubik_regular"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantStyles" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
-                android:text="Смартфон" />
+                android:text="Смартфон"
+                style="@style/TextViewVariantStyles"/>
 
         </LinearLayout>
 
@@ -85,17 +83,15 @@
                 android:layout_height="40dp"
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="2"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantStyles" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
-                android:text="Галактика" />
+                android:text="Галактика"
+                style="@style/TextViewVariantStyles" />
 
         </LinearLayout>
 
@@ -113,17 +109,15 @@
                 android:layout_height="40dp"
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="3"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantStyles"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
-                android:text="Вселенная" />
+                android:text="Вселенная"
+                style="@style/TextViewVariantStyles"/>
 
         </LinearLayout>
 
@@ -141,17 +135,15 @@
                 android:layout_height="40dp"
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="4"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantStyles"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
-                android:text="Космос" />
+                android:text="Космос"
+                style="@style/TextViewVariantStyles"/>
 
         </LinearLayout>
 
